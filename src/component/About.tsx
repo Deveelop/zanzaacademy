@@ -76,7 +76,7 @@ const About = () => {
           path: "M10 9a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2h2a1 1 0 0 1 1 1v2a1 1 0 1 -1 -1h-2a1 1 0 1",
         },
         {
-          title: "Celebrate your Achievement",
+          title: "Achievement",
           description:
             "We love Celebrations. We will celebrate your achievement on our Social Profiles.",
           path: "M10 8v3a1 1 0 0 0 1 1h3M14 8v8",

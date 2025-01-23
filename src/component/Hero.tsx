@@ -29,8 +29,18 @@ const Hero = () => {
                 </div>
             </div>
             <div className="hidden sm:block sm:w-1/3 lg:w-3/5 relative">
-                <img src="https://www.tailwind-kit.com/images/object/10.png" className="max-w-xs md:max-w-sm m-auto"/>
-            </div>
+            <iframe
+              frameBorder="0"
+              allowFullScreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/mr15Xzb1Ook?autoplay=0&amp;mute=0&amp;controls=0&"
+              id="widget2"
+              title="YouTube Video"
+            ></iframe>
+              
+              </div>
         </div>
     </div>
     
