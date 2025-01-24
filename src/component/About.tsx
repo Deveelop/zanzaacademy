@@ -15,13 +15,17 @@ const About = () => {
        </p>
         <div className="flex justify-center space-x-8 mt-8 animate-fadeIn">
           <div className="transition transform hover:scale-110">
-            <h3 className="text-xl font-bold" >85+</h3>
+            <h3 className="text-xl font-bold" >0+</h3>
             <p className="text-gray-700">Tutors</p>
           </div>
           <div className="transition transform hover:scale-110">
-            <h3 className="text-xl font-bold" >2+</h3>
+            <h3 className="text-xl font-bold" >0+</h3>
             <p className="text-gray-700">Years of Experience</p>
           </div>
+        </div>
+        <div className=" block justify-center sm:flex gap-2">
+          <button className=" border-2 p-3 mt-2 font-bold rounded border-indigo-600">Volunteer as a tutor &rarr;</button>
+          <button className=" border-2 p-3 mt-2 font-bold rounded bg-[#FFD700]">Donate</button>
         </div>
       </section>
 

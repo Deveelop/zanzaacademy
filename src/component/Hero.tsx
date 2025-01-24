@@ -4,8 +4,8 @@ const Hero = () => {
   return (
     
     <div className=" flex relative z-20 items-center overflow-hidden">
-        <div className="container mx-auto px-6 flex relative py-16">
-            <div className="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
+        <div className="container mx-auto px-6 block sm:flex relative py-16">
+            <div className=" mb-5 sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
                 <span className="w-20 h-2 bg-gray-800 mb-12">
                 </span>
                 <h1 className="font-bebas-neue uppercase text-6xl sm:text-8xl font-black flex flex-col leading-none text-gray-800">
@@ -28,7 +28,7 @@ const Hero = () => {
                     </a>
                 </div>
             </div>
-            <div className="hidden sm:block sm:w-1/3 lg:w-3/5 relative">
+            <div className=" sm:block sm:w-1/3 lg:w-3/5 relative">
             <iframe
               frameBorder="0"
               allowFullScreen
